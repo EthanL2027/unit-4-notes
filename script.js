@@ -86,3 +86,21 @@ counter++; // SHORTCUT
 console.log("Count:" + counter);
 counter--; 
 console.log("count:" + counter);
+
+/* FUNCTIONS:
+Reusable sets of code statments that perform a specific task or process
+*/
+
+//Example of CALLING (using) a function
+console.log("hello");
+
+//Example of DECLArING (creating) a function
+function skincare(){
+    // 3 statements (steps/instructions)
+    console.log("1. Double cleanse")
+    console.log("2. Apply toner")
+    console.log("3. Moisturizer")
+}
+// To CALL (run) our function, say its name
+skincare();
+skincare(); // Repeated the routine again!
