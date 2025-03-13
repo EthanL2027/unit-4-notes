@@ -104,3 +104,28 @@ function skincare(){
 // To CALL (run) our function, say its name
 skincare();
 skincare(); // Repeated the routine again!
+
+/* Functions are like RECIPES;
+Reliably perform the same set of actions for a consistent result.
+PARAMETERS (input) are like ingredients.
+RETURN values (output) - are like the completed meal 
+*/
+
+// Sandwich-making example of a function
+// that requires PARAMETERS and returns data
+// (takes input, provides output)
+
+function makeSandwich(bread, filling, sauce){
+    // function BODY (procedure, recipe steps)
+    let sandwich = filling + "sandwich with" + sauce + "on" + bread;
+    return sandwich;
+}
+// Call a function that RETURNS data
+// store the output in a variable!
+let burger = makeSandwich("bun", "patty", "ketchup");
+console.log(burger);
+
+//TRY the function with different ARGUMENTS (input data)
+let caprese = makeSandwich("Skibidi-bread", "sigma-chese", rizz-sauce);
+console.log(Gyatt-sandwich);
+
