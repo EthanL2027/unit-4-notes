@@ -126,7 +126,7 @@ let burger = makeSandwich("bun", "patty", "ketchup");
 console.log(burger);
 
 //TRY the function with different ARGUMENTS (input data)
-let caprese = makeSandwich("Skibidi-bread", "sigma-chese", rizz-sauce);
+let caprese = makeSandwich("Skibidi-bread", "sigma-chese", "rizz-sauce");
 console.log(caprese);
 
 // *** Selection (CONDITINALS) ***/
@@ -146,4 +146,27 @@ console.log(result);
 // Comparing STRINGS (text) uses dictionary order
 // TRUE if letter is later in order
 console.log('z' > 'A');
-console.log('Nikita' == 'Danny')
+console.log('Nikita' == 'Danny');
+
+// IF STATEMENTS evaluate a condition
+// then execute a block of code if TRUE
+let age = 18;
+// "is your age equal to 16?"
+if (age == 16) {
+    console.log("Happy sweey sixteen");
+}
+else {
+    console.log("You can't have a sweet sixteen party");
+}
+
+// To test MULTIPLE conditions, use ELSE-IF statements
+let year = 2025;
+if (age == 18){
+    console.log("Congrats on your first time voting!");
+}
+else if (age > 18) {
+    console.log("Go vote!");
+}
+else {
+    console.log("You're too young to vote...");
+}
